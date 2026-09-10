@@ -2,8 +2,8 @@
 
 An AI agent for IT support ticket analytics — ask questions about your ticket data in plain English and get real SQL-backed answers, and predict whether a new ticket is likely to breach its SLA before it even happens.
 
-**Live app:** https://ticket-analytics-agent.onrender.com/docs
-**Live UI:** run `streamlit run streamlitapp.py` (or point `API_URL` at the Render URL)
+**Live UI:** https://ticket-analytics-agent-35gyd69dfpwmr7b4a5rpij.streamlit.app
+**Live API docs:** https://ticket-analytics-agent.onrender.com/docs
 
 ## What it does
 
@@ -95,7 +95,7 @@ uvicorn main:app --reload --port 8000
 
 Run the UI (separate terminal):
 ```bash
-streamlit run streamlitapp.py
+streamlit run streamlit_app/streamlit_app.py
 ```
 
 Or run in Docker:
